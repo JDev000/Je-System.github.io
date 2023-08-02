@@ -11,7 +11,7 @@ const incorrectPassword = document.getElementById('incorrect-pass');
 
 
 function loadHome() {
-    window.location.href = 'http://127.0.0.1:5500/pages/home.html';
+    window.location.href = 'https://jdev000.github.io/Je-System.github.io/pages/home.html';
 }
 
 
