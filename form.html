@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div id="display-none">
+       <img src="./assets/cross.png" alt="">
+       <p>Incorrect password</p> 
+    </div>
+    <div class="form-container">
+        <form action="#">
+            <h2>Je System</h2>
+            <!-- <li style="text-align: center; color: red; list-style: square;">Incorrect password</li> -->
+            <ul>
+                <h1>Username:</h1>
+                <input type="text" placeholder="Example@gmail.com" value="">
+                <h1>Password:</h1>
+                <input id="password" type="password" placeholder="Password123" >
+            </ul>
+            <a href="">Forgot Password?</a>
+            <ul>
+                <button id="log-btn" type="button" onclick="loadNow()">Log In</button>
+            </ul>
+        </form>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
